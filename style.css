@@ -1,0 +1,70 @@
+/* Fuente general */
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/*Sección hero */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #d8b4fe, #fbcfe8, #bfdbfe);
+ /* background-image: "./assets/fondos/portada";*/
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  padding: 0 15px;
+}
+
+.highlight {
+  color: #7f32ae;
+}
+
+/* Títulos de sección */
+.section-title {
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 1rem;
+}
+
+/* Habilidades */
+.skills-section {
+  background: #f8f9fa;
+}
+
+.skill-card {
+  background: #e9d5ff;
+  border-radius: 12px;
+  padding: 1rem;
+  font-weight: 500;
+  color: #4a148c;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  background: #d8b4fe;
+}
+
+/* ✨ Blog */
+.blog-section {
+  background: #fef6ff;
+}
+
+.card-title {
+  color: #6a1b9a;
+  font-weight: 600;
+}
+
+/* Formulario */
+.btn-primary {
+  background-color: #c084fc;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #a855f7;
+}
+
+/* 🌙 Footer */
+footer {
+  background: #5f2888;
+}
