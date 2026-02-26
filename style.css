@@ -7,7 +7,7 @@ body {
 /*Sección hero */
 .hero {
   height: 80vh;
-  background: linear-gradient(135deg, #d8b4fe, #fbcfe8, #bfdbfe);
+  background-image:"./assets/fondos/portada";
  /* background-image: "./assets/fondos/portada";*/
   color: #fff;
   text-shadow: 0 2px 4px rgba(0,0,0,0.2);
