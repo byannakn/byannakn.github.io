@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es" data-assets-base="assets">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil — Ana Karen Nava</title>
+  <meta name="description" content="Perfil de Ana Karen Nava, UX/UI Designer y Frontend Developer.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-anna-color.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header class="site-header">
+      <a href="index.html" class="logo-mark" aria-label="Ana Karen Nava — inicio">
+        <img src="assets/img/logo-anna-color.svg" alt="" class="logo-img logo-img--color">
+        <img src="assets/img/logo-anna-blanco.svg" alt="" class="logo-img logo-img--white">
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="index.html#proyectos" data-i18n="nav.proyectos">Proyectos</a>
+        <a href="perfil.html" data-i18n="nav.perfil">Perfil</a>
+      </nav>
+
+      <div class="lang-switch" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang-option="es">Esp</button>
+        <span class="divider">|</span>
+        <button type="button" data-lang-option="en">Eng</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="perfil-hero">
+        <div class="perfil-text">
+          <p class="perfil-eyebrow" data-i18n="perfil.eyebrow">Perfil</p>
+          <h1 class="perfil-title" data-i18n="perfil.name">Ana Karen Nava</h1>
+          <p class="hero-subtitle" data-i18n="perfil.role">Designer · Frontend Developer</p>
+
+          <div class="hero-copy">
+            <p data-i18n="perfil.bio.p1"></p>
+            <p data-i18n="perfil.bio.p2"></p>
+          </div>
+        </div>
+
+        <!-- Contenedor flexible: hoy muestra la ilustración; si más adelante prefieres una foto,
+             solo se cambia la imagen de este bloque -->
+        <div class="perfil-visual">
+          <img src="assets/img/hero.webp" width="1003" height="576"
+               alt="Ilustración de una chica reclinada con botas, dibujando en una tableta, junto a las letras A y V del logotipo."
+               data-i18n-attr="alt:about.alt">
+        </div>
+      </section>
+
+      <section class="trayectoria-section" aria-labelledby="trayectoria-heading">
+        <h2 id="trayectoria-heading" data-i18n="perfil.trayectoria.title">Trayectoria</h2>
+        <!-- Se rellena dinámicamente desde es.json/en.json vía i18n.js -->
+        <ul id="trayectoria-list"></ul>
+      </section>
+
+      <section class="perfil-closing">
+        <p data-i18n="perfil.closing"></p>
+        <div class="perfil-actions">
+          <a href="index.html" class="btn btn-outline" data-i18n="perfil.buttons.back">Volver</a>
+          <a href="index.html#proyectos" class="btn btn-solid" data-i18n="perfil.buttons.proyectos">Proyectos</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-i18n="footer.rights">Hecho con cuidado por Ana Karen Nava</span>
+    </footer>
+  </div>
+
+  <script src="assets/js/i18n.js"></script>
+</body>
+</html>

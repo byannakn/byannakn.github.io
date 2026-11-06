@@ -1,0 +1,252 @@
+{
+  "nav": {
+    "proyectos": "Projects",
+    "perfil": "Profile"
+  },
+  "hero": {
+    "role": "Designer · Frontend Developer",
+    "p1": "I design by thinking about how something is used first, not just how it looks — a lens I bring from my background in product design. My technical foundation in frontend lets me work end to end: from wireframe to functional component.",
+    "p2": "Bilingual technical support taught me to listen for what people actually need, beyond what they say.",
+    "p3": "I'm detail-oriented down to what barely shows. Like salt: you notice when it's missing."
+  },
+  "buttons": {
+    "perfil": "My profile",
+    "cv": "Download CV"
+  },
+  "bubble": {
+    "greeting": "Hi,",
+    "name": "I'm ANNA"
+  },
+  "about": {
+    "tooltip": "About me",
+    "alt": "Illustration of a girl reclining in boots and drawing on a tablet, next to the A and V letters of the logo."
+  },
+  "skills": {
+    "uxui": {
+      "title": "ux / ui"
+    },
+    "dev": {
+      "title": "development"
+    },
+    "mgmt": {
+      "title": "design & management"
+    }
+  },
+  "projects": {
+    "cta": "Projects"
+  },
+  "perfil": {
+    "eyebrow": "Profile",
+    "name": "Ana Karen Nava",
+    "role": "Designer · Frontend Developer",
+    "bio": {
+      "p1": "I started designing objects you can touch, and ended up designing interfaces you can use — the thread between the two never changed: understanding first who what I make is for.",
+      "p2": "That curiosity doesn't stay at work: I care about how people experience things, whether physical, digital, or entirely intangible. I'd rather that show in what I do than in what I say."
+    },
+    "trayectoria": {
+      "title": "Path",
+      "items": [
+        {
+          "date": "2026",
+          "title": "A la Gloria",
+          "org": "Family business",
+          "desc": "Designing a family business's website from scratch: identity, catalog and sales in one place."
+        },
+        {
+          "date": "Sept – Dec 2025",
+          "title": "Full Stack Java Bootcamp",
+          "org": "Generation México",
+          "desc": "I went deeper into backend logic and databases, to understand end-to-end what I build in frontend."
+        },
+        {
+          "date": "2025",
+          "title": "Design systems & prototyping",
+          "org": "UX Christopher",
+          "desc": "There I refined high-fidelity prototyping and mastered auto layout in Figma — the difference between a pretty mockup and a system that actually works."
+        },
+        {
+          "date": "Sept 2023 – Aug 2025",
+          "title": "Bilingual technical support",
+          "org": "Ttec Solutions",
+          "desc": "I solved technical problems in English and Spanish for two years. I learned that listening well isn't just solving the issue — it's understanding the cultural context behind it."
+        },
+        {
+          "date": "2023",
+          "title": "UX/UI Design Certificate",
+          "org": "Google · Coursera",
+          "desc": "Here I learned the full methodology end to end: research, wireframing, prototyping — the process I use in every project today."
+        },
+        {
+          "date": "Jul – Dec 2022",
+          "title": "Bilingual receptionist",
+          "org": "Grand Palladium Riviera Maya",
+          "desc": "I resolved conflicts and coordinated across areas to keep the experience running smoothly, even under pressure."
+        },
+        {
+          "date": "Feb – May 2022",
+          "title": "Freelance web development",
+          "org": "NUCCI Nutrition",
+          "desc": "I designed my first site for a real client: digital catalog, visual content, a brand I learned to understand before designing."
+        },
+        {
+          "date": "2019",
+          "title": "Industrial Design",
+          "org": "UAM",
+          "desc": "There I learned to design for the body — ergonomics, materials, what something feels like to touch. That bridge never disappeared: I started with objects you can touch, and ended up with interfaces you can use."
+        }
+      ]
+    },
+    "closing": "If you have a project that needs someone who cares about the user experience as much as the details nobody asks for but everyone notices, let's talk. Write to me and we'll build something together.",
+    "buttons": {
+      "back": "Back",
+      "proyectos": "Projects"
+    }
+  },
+  "footer": {
+    "rights": "Made with care by Ana Karen Nava"
+  },
+  "project": {
+    "toc": "Contents",
+    "datasheet": "At a glance",
+    "duration": "Duration",
+    "team": "Team",
+    "role": "Role",
+    "tools": "Tools",
+    "program": "Program",
+    "back": "Back to projects",
+    "next": "Next project",
+    "zoomHint": "Click an image to enlarge it",
+    "close": "Close",
+    "tags": {
+      "research": "UX Research",
+      "product": "Product design",
+      "userResearch": "User research",
+      "ia": "Information architecture",
+      "a11y": "Accessibility"
+    },
+    "closeImage": "Close image"
+  },
+  "modal": {
+    "label": "Projects",
+    "close": "Close projects window",
+    "woof": "A character-driven e-commerce for BARF dog food",
+    "xanat": "App and website to protect endangered flora"
+  },
+  "woof": {
+    "meta": "Woof & BARF — Case study",
+    "tagline": "A character-driven e-commerce for BARF dog food",
+    "ficha": {
+      "duration": "6 weeks",
+      "team": "8 people",
+      "role": "UX Lead · brand & frontend",
+      "tools": "Figma · HTML5 · CSS3 · JavaScript"
+    },
+    "s1": {
+      "title": "Context",
+      "p": "An e-commerce project built by a cross-functional team of 8 during a 6-week bootcamp. My role: UX Lead — brand identity, design system, packaging, site structure and flows, Figma prototyping, and part of the frontend implementation."
+    },
+    "s2": {
+      "title": "The problem",
+      "p": "Pet owners in the Mexico City metro area looking for BARF food options run into visually generic brands with nothing to set them apart. The challenge was to create a platform that conveyed trust and character at once — without falling into the “cute”, department-store look that dominates the category."
+    },
+    "s3": {
+      "title": "Design decisions",
+      "p1": "The husky in sunglasses was no accident: it ties raw food to the wolf, its natural origin, while the glasses give the brand the “cool” personality that sets it apart from more conventional competitors. The same thinking guided the color system — I chose tones that felt “food-like” without giving up the meaning we already expect from certain colors (green for positive, red for error), and documented full variations in Figma so the team could apply them consistently.",
+      "p2": "On the packaging, the transparent window isn't a random shape: embracing a “cool”, tough identity, I designed the cut-out to look as if the pack had been “torn open”. Each size has its own mascot (different breeds) and the same ingredients that appear in the site's hero, so the brand feels the same wherever you meet it."
+    },
+    "s4": {
+      "title": "What I built",
+      "g1": {
+        "title": "Brand identity and packaging",
+        "p": "I designed the full identity: logo, color system, typography (refined through team feedback), and application rules for social media, labeling and advertising in different formats. I also designed the packaging, iterating through several versions to reach the final one. The ingredient and dish compositions were built with AI as a style reference for the additional mascots; I organized, separated and adapted them to the brand identity."
+      },
+      "g2": {
+        "title": "Website",
+        "p": "I designed the site's structure and flows — not just the Figma screens but the entire journey — the header and footer with feedback from my teammates, and the sign-in and sign-up flow, which I implemented in code together with a teammate (HTML5 + CSS3). I also coordinated visual consistency across the pages the rest of the team built: alignment, colors and styles. On the home page, the husky stays still while dishes and ingredients orbit around it; they stop on hover and link to the catalog on click.",
+        "credits": "Team credits: the “About us” section (with cards that flip on hover) was my teammates' idea and build; I only recreated it in Figma to keep it in the file. The home animation adapts a concept I saw on another site (a pug with information cards around it). The catalog filters were implemented by another teammate; my contribution was the visual proposal. I also designed the “My account” section in Figma, which fell outside the final scope due to time."
+      },
+      "g3": {
+        "title": "Process",
+        "p": "From wireframes to a connected prototype in Figma."
+      }
+    },
+    "s5": {
+      "title": "Reflection",
+      "p": "We did not run formal user research. On a real project, I would have validated the value proposition with at least 5 interviews with pet owners before defining the visual identity. I would also have reduced the background visual noise on secondary pages to improve content legibility."
+    },
+    "s6": {
+      "title": "Stack and tools"
+    },
+    "shots": {
+      "cover": "Site home: the sunglasses husky, the star of the identity.",
+      "brandGuide": "Brand guide: palette, typography and shadows defined in Figma.",
+      "logoGrid": "Grid and logo variations for different uses.",
+      "logoVersions": "Logo versions: stacked, horizontal, compact, icon and monogram.",
+      "packRes": "Beef pack, 1 kg.",
+      "packCerdo": "Pork pack, 2 kg.",
+      "packPollo": "Chicken pack, 500 g.",
+      "catalogo": "Catalog with filters (work-in-progress version; filters implemented by a teammate).",
+      "carrito": "Cart with a checkout stepper and recommended products (work-in-progress version).",
+      "cuenta": "“My account”: designed in Figma, outside the project's final scope.",
+      "login": "Sign-up, sign-in and identity-validation flow.",
+      "wireframes": "Low-fidelity wireframes of the main screens.",
+      "figma": "Overview of the screens designed in Figma.",
+      "prototipo": "Connected prototype flow."
+    }
+  },
+  "xanat": {
+    "meta": "Xanat — Case study",
+    "tagline": "App and website to protect endangered flora",
+    "ficha": {
+      "duration": "6 weeks",
+      "team": "Solo project",
+      "program": "Google UX Design Certificate (Coursera)",
+      "tools": "Figma"
+    },
+    "s1": {
+      "title": "Context",
+      "p": "Solo project completed in 6 weeks as one of the three capstone projects of the Google UX Design Certificate (Coursera). Xanat is a fictional organization focused on the protection, propagation and care of endangered flora in Mexico. My role: UX designer in charge of conceiving and designing the app and the responsive website, end to end."
+    },
+    "s2": {
+      "title": "The problem",
+      "p": "More than 60 species native to Mexico are endangered because of habitat destruction, introduced non-native species and pests — an imbalance that also pushes pollinators toward vulnerable areas. The challenge: design a tool that educates people about caring for these species, improves quality of life for those involved, and supports the farming communities that depend on them."
+    },
+    "s3": {
+      "title": "Research process",
+      "p1": "I reviewed the theoretical framework from sources such as SAGARPA and UNAM's Botanical Garden to build the interview questions. Participation from real users was limited — mostly family members — and was complemented with simulated interviews as part of the exercise. Even with that limitation, the finding was clear: most people didn't know how many or which species are endangered, but were willing to help if they had a simple tool to guide them.",
+      "p2": "With those findings I ran an ideation exercise focused on education and guidance — how to bring these species into the daily life of someone with no prior knowledge — and defined the information architecture with a sitemap (Garden, Nursery, Cart, About) that later guided every screen."
+    },
+    "s4": {
+      "title": "What I built",
+      "g1": {
+        "title": "From paper to prototype",
+        "p": "I started with paper sketches, then digital wireframes and a low-fidelity prototype for the usability tests."
+      },
+      "g2": {
+        "title": "What the tests changed",
+        "p": "The results changed concrete decisions: the home screen stopped showing the status of the newly added plant and instead presents slides about plant care, farming communities and news on species-protection progress, and I added a “buy” option on the species pages (as seed, plant or derivative, depending on each species' legal conditions)."
+      },
+      "g3": {
+        "title": "High fidelity and responsive design",
+        "p": "I built the high-fidelity prototype keeping the same flow, and designed the product in three formats — mobile website, mobile app and desktop website — with clear typographic hierarchy and labels designed for screen readers."
+      }
+    },
+    "s5": {
+      "title": "Reflection",
+      "p": "Users who tried the prototype said the language and layout felt friendly, even for a topic that might seem meant only for specialists. What I learned: even when the problem is big, working through each step of the process with discipline and adjusting to people's needs helps find viable, useful solutions. With more time, I would run another round of usability tests to validate the changes, add more engaging ways to keep users interested, and reach out to more farming communities."
+    },
+    "s6": {
+      "title": "Tools and approach"
+    },
+    "shots": {
+      "cover": "High-fidelity mockups: home, My garden, species page and cart.",
+      "sitemap": "Sitemap that guided each screen's structure.",
+      "esquemas": "Digital sketches of the “My garden” screen, with design annotations.",
+      "bajaFidelidad": "Connected low-fidelity prototype used for usability testing.",
+      "antesHome": "Before and after the usability study: home screen.",
+      "antesFlor": "Before and after the usability study: species page with a buy option.",
+      "altaFidelidad": "High-fidelity prototype following the same flow as the low-fidelity one.",
+      "adaptable": "Responsive design: mobile website, mobile app and desktop website."
+    }
+  }
+}

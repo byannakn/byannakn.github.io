@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es" data-assets-base="assets">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="woof.meta">Woof &amp; BARF — Caso de estudio</title>
+  <meta name="description" content="Woof &amp; BARF — caso de estudio de Ana Karen Nava.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-anna-color.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header class="site-header">
+      <a href="index.html" class="logo-mark" aria-label="Ana Karen Nava — inicio">
+        <img src="assets/img/logo-anna-color.svg" alt="" class="logo-img logo-img--color">
+        <img src="assets/img/logo-anna-blanco.svg" alt="" class="logo-img logo-img--white">
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="index.html#proyectos" data-i18n="nav.proyectos">Proyectos</a>
+        <a href="perfil.html" data-i18n="nav.perfil">Perfil</a>
+      </nav>
+
+      <div class="lang-switch" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang-option="es">Esp</button>
+        <span class="divider">|</span>
+        <button type="button" data-lang-option="en">Eng</button>
+      </div>
+    </header>
+
+    <div class="project-layout">
+      <aside class="project-sidebar">
+        <h1 class="project-title">Woof &amp; BARF</h1>
+        <p class="project-tagline" data-i18n="woof.tagline">E-commerce con carácter para comida BARF</p>
+
+        <nav class="project-toc" aria-labelledby="toc-heading">
+          <h2 id="toc-heading" data-i18n="project.toc">Contenido</h2>
+          <ol id="project-toc-list"></ol>
+        </nav>
+
+        <div class="project-datasheet">
+          <h2 data-i18n="project.datasheet">Ficha</h2>
+          <dl>
+          <dt data-i18n="project.duration">Duración</dt>
+          <dd data-i18n="woof.ficha.duration">6 semanas</dd>
+          <dt data-i18n="project.team">Equipo</dt>
+          <dd data-i18n="woof.ficha.team">8 personas</dd>
+          <dt data-i18n="project.role">Rol</dt>
+          <dd data-i18n="woof.ficha.role">Líder UX · marca y frontend</dd>
+          <dt data-i18n="project.tools">Herramientas</dt>
+          <dd data-i18n="woof.ficha.tools">Figma · HTML5 · CSS3 · JavaScript</dd>
+          </dl>
+        </div>
+      </aside>
+
+      <main class="project-main">
+        <figure class="project-cover">
+          <img src="assets/img/projects/woof-barf/cover.webp" alt="" width="1600" height="765" data-i18n-attr="alt:woof.shots.cover">
+          <div class="project-tags"><span class="tag-pill">Branding</span><span class="tag-pill">UX/UI</span><span class="tag-pill">Frontend</span></div>
+        </figure>
+        <p class="zoom-hint" data-i18n="project.zoomHint">Haz clic en una imagen para ampliarla</p>
+
+        <section id="contexto" class="project-section" data-toc>
+          <h2 data-i18n="woof.s1.title">Contexto</h2>
+          <p data-i18n="woof.s1.p">Proyecto de e-commerce desarrollado en un equipo multidisciplinario de 8 personas, durante un bootcamp de 6 semanas. Mi rol: Líder UX — identidad de marca, sistema de diseño, empaques, estructura y flujos del sitio, prototipado en Figma y parte de la implementación frontend.</p>
+        </section>
+
+        <section id="problema" class="project-section" data-toc>
+          <h2 data-i18n="woof.s2.title">El problema</h2>
+          <p data-i18n="woof.s2.p">Los dueños de mascotas en el área metropolitana de CDMX que buscan opciones de comida BARF se encuentran con marcas visualmente genéricas, sin personalidad que las diferencie. El reto era crear una plataforma que transmitiera confianza y carácter al mismo tiempo — sin caer en la estética “cute” y departamental que domina el sector.</p>
+        </section>
+
+        <section id="decisiones" class="project-section" data-toc>
+          <h2 data-i18n="woof.s3.title">Decisiones de diseño</h2>
+          <p data-i18n="woof.s3.p1">El husky con lentes de sol no fue casualidad: conecta la comida cruda con el lobo, su origen natural, y los lentes le dan la personalidad “cool” que separa a la marca de la competencia más convencional. Ese mismo criterio guió el sistema de color — elegí tonos que se sintieran “alimenticios” sin sacrificar el significado que ya esperamos de ciertos colores (verde para positivo, rojo para error), y lo documenté con variaciones completas en Figma para que el equipo lo aplicara con consistencia.</p>
+          <div class="gallery gallery--1">
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/brand-guide.webp"><img src="assets/img/projects/woof-barf/brand-guide.webp" alt="" loading="lazy" width="1600" height="716"></button><figcaption data-i18n="woof.shots.brandGuide">Guía de marca: paleta, tipografía y sombras definidas en Figma.</figcaption></figure>
+          </div>
+          <p data-i18n="woof.s3.p2">En el empaque, la ventana transparente no tiene una forma azarosa: al abrazar una identidad “cool” y ruda, diseñé el corte como si el empaque estuviera “rasgado”. Cada presentación tiene su propia mascota (razas distintas según el tamaño) y los mismos ingredientes que aparecen en el hero del sitio, para que la marca se sienta igual sin importar dónde la encuentres.</p>
+        </section>
+
+        <section id="construi" class="project-section" data-toc>
+          <h2 data-i18n="woof.s4.title">Lo que construí</h2>
+          <h3 data-i18n="woof.s4.g1.title">Identidad de marca y empaques</h3>
+          <p data-i18n="woof.s4.g1.p">Diseñé la identidad completa: logotipo, sistema de color, tipografía (refinada con retroalimentación del equipo) y reglas de aplicación para redes sociales, etiquetado y publicidad en distintos formatos. También diseñé los empaques, iterando entre varias versiones hasta llegar a la final. Las composiciones de ingredientes y platillos las armé con apoyo de IA como referencia de estilo para las mascotas adicionales; yo las organicé, separé y adapté a la identidad de la marca.</p>
+          <div class="gallery gallery--2">
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/logo-grid.webp"><img src="assets/img/projects/woof-barf/logo-grid.webp" alt="" loading="lazy" width="1173" height="795"></button><figcaption data-i18n="woof.shots.logoGrid">Retícula y variaciones del logotipo para distintos usos.</figcaption></figure>
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/logo-versions.webp"><img src="assets/img/projects/woof-barf/logo-versions.webp" alt="" loading="lazy" width="1161" height="398"></button><figcaption data-i18n="woof.shots.logoVersions">Versiones del logotipo: vertical, horizontal, compacta, ícono y monograma.</figcaption></figure>
+          </div>
+          <div class="gallery gallery--3">
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/pack-res.webp"><img src="assets/img/projects/woof-barf/pack-res.webp" alt="" loading="lazy" width="751" height="900"></button><figcaption data-i18n="woof.shots.packRes">Empaque de Res, 1 kg.</figcaption></figure>
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/pack-cerdo.webp"><img src="assets/img/projects/woof-barf/pack-cerdo.webp" alt="" loading="lazy" width="751" height="900"></button><figcaption data-i18n="woof.shots.packCerdo">Empaque de Cerdo, 2 kg.</figcaption></figure>
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/pack-pollo.webp"><img src="assets/img/projects/woof-barf/pack-pollo.webp" alt="" loading="lazy" width="751" height="900"></button><figcaption data-i18n="woof.shots.packPollo">Empaque de Pollo, 500 g.</figcaption></figure>
+          </div>
+          <h3 data-i18n="woof.s4.g2.title">Sitio web</h3>
+          <p data-i18n="woof.s4.g2.p">Diseñé la estructura y los flujos del sitio — no solo las pantallas en Figma, sino el recorrido completo —, el header y el footer con retroalimentación de mis compañeros, y el flujo de inicio de sesión y registro, que implementé en código junto con una compañera (HTML5 + CSS3). También coordiné la consistencia visual entre las páginas que construyó el resto del equipo: alineaciones, colores y estilos. En el home, el husky permanece quieto mientras platillos e ingredientes giran a su alrededor; al pasar el cursor se detienen, y al hacer clic llevan al catálogo.</p>
+          <p class="note" data-i18n="woof.s4.g2.credits">Créditos del equipo: la sección “Nosotros” (con tarjetas que voltean al hacer hover) fue idea y construcción de mis compañeros; yo solo la recreé en Figma para conservarla en el archivo. La animación del home adaptó un concepto que vi en otro sitio (un pug con tarjetas de información alrededor). Los filtros del catálogo los implementó otro compañero; mi aporte fue la propuesta visual. También diseñé la sección “Mi cuenta” en Figma, que quedó fuera del alcance final por tiempo.</p>
+          <div class="gallery gallery--1">
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/cover.webp"><img src="assets/img/projects/woof-barf/cover.webp" alt="" loading="lazy" width="1600" height="765"></button><figcaption data-i18n="woof.shots.cover">Home del sitio: el husky con lentes, protagonista de la identidad.</figcaption></figure>
+          </div>
+          <div class="gallery gallery--1">
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/site-catalogo.webp"><img src="assets/img/projects/woof-barf/site-catalogo.webp" alt="" loading="lazy" width="1600" height="776"></button><figcaption data-i18n="woof.shots.catalogo">Catálogo con filtros (versión de trabajo; filtros implementados por un compañero).</figcaption></figure>
+          </div>
+          <div class="gallery gallery--2">
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/site-carrito.webp"><img src="assets/img/projects/woof-barf/site-carrito.webp" alt="" loading="lazy" width="818" height="886"></button><figcaption data-i18n="woof.shots.carrito">Carrito con stepper de compra y productos recomendados (versión de trabajo).</figcaption></figure>
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/site-cuenta.webp"><img src="assets/img/projects/woof-barf/site-cuenta.webp" alt="" loading="lazy" width="1150" height="679"></button><figcaption data-i18n="woof.shots.cuenta">“Mi cuenta”: diseñada en Figma, fuera del alcance final del proyecto.</figcaption></figure>
+          </div>
+          <div class="gallery gallery--1">
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/site-login.webp"><img src="assets/img/projects/woof-barf/site-login.webp" alt="" loading="lazy" width="1600" height="272"></button><figcaption data-i18n="woof.shots.login">Flujo de registro, inicio de sesión y validación de identidad.</figcaption></figure>
+          </div>
+          <h3 data-i18n="woof.s4.g3.title">Proceso</h3>
+          <p data-i18n="woof.s4.g3.p">Del wireframe al prototipo conectado en Figma.</p>
+          <div class="gallery gallery--1">
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/proc-wireframes.webp"><img src="assets/img/projects/woof-barf/proc-wireframes.webp" alt="" loading="lazy" width="1182" height="188"></button><figcaption data-i18n="woof.shots.wireframes">Wireframes de baja fidelidad de las pantallas principales.</figcaption></figure>
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/proc-figma.webp"><img src="assets/img/projects/woof-barf/proc-figma.webp" alt="" loading="lazy" width="1600" height="392"></button><figcaption data-i18n="woof.shots.figma">Vista general de las pantallas diseñadas en Figma.</figcaption></figure>
+          </div>
+          <div class="gallery gallery--1">
+            <figure class="shot shot--narrow"><button type="button" class="shot-btn" data-full="assets/img/projects/woof-barf/proc-prototipo.webp"><img src="assets/img/projects/woof-barf/proc-prototipo.webp" alt="" loading="lazy" width="850" height="827"></button><figcaption data-i18n="woof.shots.prototipo">Flujo conectado del prototipo.</figcaption></figure>
+          </div>
+        </section>
+
+        <section id="reflexion" class="project-section" data-toc>
+          <h2 data-i18n="woof.s5.title">Reflexión</h2>
+          <p data-i18n="woof.s5.p">No realizamos investigación de usuario formal. En un proyecto real, habría validado la propuesta de valor con al menos 5 entrevistas a dueños de mascotas antes de definir la identidad visual. También habría reducido el ruido visual del fondo en páginas secundarias para mejorar la legibilidad del contenido.</p>
+        </section>
+
+        <section id="stack" class="project-section" data-toc>
+          <h2 data-i18n="woof.s6.title">Stack y herramientas</h2>
+          <div class="project-tags"><span class="tag-pill">Figma</span><span class="tag-pill">HTML5</span><span class="tag-pill">CSS3</span><span class="tag-pill">JavaScript</span><span class="tag-pill">Git / GitHub</span><span class="tag-pill">Jira</span><span class="tag-pill">Scrum</span></div>
+        </section>
+
+        <nav class="project-pager" aria-label="Navegación entre proyectos">
+          <a href="index.html#proyectos" class="btn btn-outline" data-i18n="project.back">Volver a proyectos</a>
+          <a href="proyecto-xanat.html" class="btn btn-solid"><span data-i18n="project.next">Siguiente proyecto</span> →</a>
+        </nav>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <span data-i18n="footer.rights">Hecho con cuidado por Ana Karen Nava</span>
+    </footer>
+  </div>
+
+  <dialog id="lightbox" class="lightbox" aria-label="Imagen ampliada">
+    <button type="button" class="lightbox-close" aria-label="Cerrar imagen" data-i18n-attr="aria-label:project.closeImage">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <img alt="">
+  </dialog>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

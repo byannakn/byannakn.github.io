@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es" data-assets-base="assets">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="xanat.meta">Xanat — Caso de estudio</title>
+  <meta name="description" content="Xanat — caso de estudio de Ana Karen Nava.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-anna-color.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header class="site-header">
+      <a href="index.html" class="logo-mark" aria-label="Ana Karen Nava — inicio">
+        <img src="assets/img/logo-anna-color.svg" alt="" class="logo-img logo-img--color">
+        <img src="assets/img/logo-anna-blanco.svg" alt="" class="logo-img logo-img--white">
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="index.html#proyectos" data-i18n="nav.proyectos">Proyectos</a>
+        <a href="perfil.html" data-i18n="nav.perfil">Perfil</a>
+      </nav>
+
+      <div class="lang-switch" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang-option="es">Esp</button>
+        <span class="divider">|</span>
+        <button type="button" data-lang-option="en">Eng</button>
+      </div>
+    </header>
+
+    <div class="project-layout">
+      <aside class="project-sidebar">
+        <h1 class="project-title">Xanat</h1>
+        <p class="project-tagline" data-i18n="xanat.tagline">App y sitio para proteger flora en peligro de extinción</p>
+
+        <nav class="project-toc" aria-labelledby="toc-heading">
+          <h2 id="toc-heading" data-i18n="project.toc">Contenido</h2>
+          <ol id="project-toc-list"></ol>
+        </nav>
+
+        <div class="project-datasheet">
+          <h2 data-i18n="project.datasheet">Ficha</h2>
+          <dl>
+          <dt data-i18n="project.duration">Duración</dt>
+          <dd data-i18n="xanat.ficha.duration">6 semanas</dd>
+          <dt data-i18n="project.team">Equipo</dt>
+          <dd data-i18n="xanat.ficha.team">Proyecto individual</dd>
+          <dt data-i18n="project.program">Programa</dt>
+          <dd data-i18n="xanat.ficha.program">Google UX Design Certificate (Coursera)</dd>
+          <dt data-i18n="project.tools">Herramientas</dt>
+          <dd data-i18n="xanat.ficha.tools">Figma</dd>
+          </dl>
+        </div>
+      </aside>
+
+      <main class="project-main">
+        <figure class="project-cover">
+          <img src="assets/img/projects/xanat/maquetas.webp" alt="" width="830" height="385" data-i18n-attr="alt:xanat.shots.cover">
+          <div class="project-tags"><span class="tag-pill" data-i18n="project.tags.research">Investigación UX</span><span class="tag-pill">UX/UI</span><span class="tag-pill" data-i18n="project.tags.product">Diseño de producto</span></div>
+        </figure>
+        <p class="zoom-hint" data-i18n="project.zoomHint">Haz clic en una imagen para ampliarla</p>
+
+        <section id="contexto" class="project-section" data-toc>
+          <h2 data-i18n="xanat.s1.title">Contexto</h2>
+          <p data-i18n="xanat.s1.p">Proyecto individual realizado en 6 semanas, como uno de los tres proyectos finales del Google UX Design Certificate (Coursera). Xanat es una organización ficticia enfocada en la protección, propagación y cuidado de flora en peligro de extinción en México. Mi rol: diseñadora UX a cargo de la concepción y el diseño de la aplicación y del sitio web adaptable, de principio a fin.</p>
+        </section>
+
+        <section id="problema" class="project-section" data-toc>
+          <h2 data-i18n="xanat.s2.title">El problema</h2>
+          <p data-i18n="xanat.s2.p">Más de 60 especies endémicas de México están en peligro de extinción por la destrucción de hábitats, la introducción de especies no endémicas y las plagas — un desequilibrio que además empuja a los polinizadores hacia zonas vulnerables. El reto: diseñar una herramienta que eduque sobre el cuidado de estas especies, mejore la calidad de vida de las personas involucradas y apoye a las comunidades agrícolas que dependen de ellas.</p>
+        </section>
+
+        <section id="investigacion" class="project-section" data-toc>
+          <h2 data-i18n="xanat.s3.title">Proceso de investigación</h2>
+          <p data-i18n="xanat.s3.p1">Revisé el marco teórico en fuentes como SAGARPA y el Jardín Botánico de la UNAM para construir las preguntas de entrevista. Tuve poca participación de usuarios reales — principalmente familiares —, complementada con entrevistas simuladas como parte del ejercicio. Aun con esa limitación, el hallazgo fue claro: la mayoría de las personas no sabía cuántas o cuáles especies están en peligro, pero estaba dispuesta a ayudar si tuviera una herramienta sencilla que la guiara.</p>
+          <p data-i18n="xanat.s3.p2">Con esos hallazgos hice un ejercicio de ideación centrado en educación y orientación — cómo incluir estas especies en la vida diaria de alguien sin conocimiento previo — y definí la arquitectura de información con un mapa de sitio (Jardín, Vivero, Carrito, Acerca de) que después guio cada pantalla.</p>
+          <div class="gallery gallery--1">
+            <figure class="shot shot--narrow"><button type="button" class="shot-btn" data-full="assets/img/projects/xanat/sitemap.webp"><img src="assets/img/projects/xanat/sitemap.webp" alt="" loading="lazy" width="597" height="370"></button><figcaption data-i18n="xanat.shots.sitemap">Mapa de sitio que guió la estructura de cada pantalla.</figcaption></figure>
+          </div>
+        </section>
+
+        <section id="construi" class="project-section" data-toc>
+          <h2 data-i18n="xanat.s4.title">Lo que construí</h2>
+          <h3 data-i18n="xanat.s4.g1.title">Del papel al prototipo</h3>
+          <p data-i18n="xanat.s4.g1.p">Partí de esquemas en papel, luego wireframes digitales y un prototipo de baja fidelidad para las pruebas de usabilidad.</p>
+          <div class="gallery gallery--2">
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/xanat/esquemas.webp"><img src="assets/img/projects/xanat/esquemas.webp" alt="" loading="lazy" width="602" height="482"></button><figcaption data-i18n="xanat.shots.esquemas">Esquemas digitales de la pantalla “Mi jardín”, con anotaciones de diseño.</figcaption></figure>
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/xanat/baja-fidelidad.webp"><img src="assets/img/projects/xanat/baja-fidelidad.webp" alt="" loading="lazy" width="510" height="275"></button><figcaption data-i18n="xanat.shots.bajaFidelidad">Prototipo de baja fidelidad conectado para las pruebas de usabilidad.</figcaption></figure>
+          </div>
+          <h3 data-i18n="xanat.s4.g2.title">Lo que cambiaron las pruebas</h3>
+          <p data-i18n="xanat.s4.g2.p">Los resultados cambiaron decisiones concretas: la pantalla de inicio dejó de mostrar el estado de la planta nueva y pasó a presentar diapositivas de cuidados de plantas, comunidades agrícolas y noticias sobre el avance en la protección de especies, y agregué la opción de “comprar” en las fichas de especie (como semilla, planta o derivado, según las condiciones legales de cada una).</p>
+          <div class="gallery gallery--2">
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/xanat/antes-despues-home.webp"><img src="assets/img/projects/xanat/antes-despues-home.webp" alt="" loading="lazy" width="550" height="437"></button><figcaption data-i18n="xanat.shots.antesHome">Antes y después del estudio de usabilidad: pantalla de inicio.</figcaption></figure>
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/xanat/antes-despues-flor.webp"><img src="assets/img/projects/xanat/antes-despues-flor.webp" alt="" loading="lazy" width="560" height="490"></button><figcaption data-i18n="xanat.shots.antesFlor">Antes y después del estudio de usabilidad: ficha de especie con opción de compra.</figcaption></figure>
+          </div>
+          <h3 data-i18n="xanat.s4.g3.title">Alta fidelidad y diseño adaptable</h3>
+          <p data-i18n="xanat.s4.g3.p">Construí el prototipo de alta fidelidad conservando el mismo flujo, y diseñé el producto en tres formatos — sitio web móvil, app móvil y sitio web de escritorio — con jerarquía tipográfica clara y etiquetas pensadas para lectores de pantalla.</p>
+          <div class="gallery gallery--1">
+            <figure class="shot shot--narrow"><button type="button" class="shot-btn" data-full="assets/img/projects/xanat/alta-fidelidad.webp"><img src="assets/img/projects/xanat/alta-fidelidad.webp" alt="" loading="lazy" width="503" height="273"></button><figcaption data-i18n="xanat.shots.altaFidelidad">Prototipo de alta fidelidad con el mismo flujo que el de baja fidelidad.</figcaption></figure>
+          </div>
+          <div class="gallery gallery--1">
+            <figure class="shot"><button type="button" class="shot-btn" data-full="assets/img/projects/xanat/adaptable.webp"><img src="assets/img/projects/xanat/adaptable.webp" alt="" loading="lazy" width="640" height="385"></button><figcaption data-i18n="xanat.shots.adaptable">Diseño adaptable: sitio web móvil, app móvil y sitio web de escritorio.</figcaption></figure>
+          </div>
+        </section>
+
+        <section id="reflexion" class="project-section" data-toc>
+          <h2 data-i18n="xanat.s5.title">Reflexión</h2>
+          <p data-i18n="xanat.s5.p">Los usuarios que probaron el prototipo comentaron que el lenguaje y la distribución se sentían amigables, incluso para un tema que podría parecer solo para especialistas. Lo que aprendí: aunque el problema sea grande, recorrer con disciplina cada paso del proceso y ajustarse a las necesidades de las personas ayuda a encontrar soluciones viables y útiles. Con más tiempo, haría otra ronda de pruebas de usabilidad para validar los cambios, agregaría formas más entretenidas de sostener el interés de quienes usan la app y buscaría acercarme a más comunidades agrícolas.</p>
+        </section>
+
+        <section id="herramientas" class="project-section" data-toc>
+          <h2 data-i18n="xanat.s6.title">Herramientas y enfoque</h2>
+          <div class="project-tags"><span class="tag-pill">Figma</span><span class="tag-pill" data-i18n="project.tags.userResearch">Investigación de usuarios</span><span class="tag-pill" data-i18n="project.tags.ia">Arquitectura de información</span><span class="tag-pill" data-i18n="project.tags.a11y">Accesibilidad</span></div>
+        </section>
+
+        <nav class="project-pager" aria-label="Navegación entre proyectos">
+          <a href="index.html#proyectos" class="btn btn-outline" data-i18n="project.back">Volver a proyectos</a>
+          <a href="proyecto-woof-barf.html" class="btn btn-solid"><span data-i18n="project.next">Siguiente proyecto</span> →</a>
+        </nav>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <span data-i18n="footer.rights">Hecho con cuidado por Ana Karen Nava</span>
+    </footer>
+  </div>
+
+  <dialog id="lightbox" class="lightbox" aria-label="Imagen ampliada">
+    <button type="button" class="lightbox-close" aria-label="Cerrar imagen" data-i18n-attr="aria-label:project.closeImage">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <img alt="">
+  </dialog>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

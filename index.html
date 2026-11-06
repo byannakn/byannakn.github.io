@@ -1,164 +1,169 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-assets-base="assets">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Karen Nava - Portafolio</title>
-<link rel="icon" type="image/png" href="./assets/logo/logo mini pixel.png">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ana Karen Nava — UX/UI Designer &amp; Frontend Developer</title>
+  <meta name="description" content="Portfolio de Ana Karen Nava, UX/UI Designer y Frontend Developer.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-anna-color.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-                <img src="./assets/logo/logo anna.png" alt="Logo ANNA" id="logo" class="logo">
-</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
-        </ul>
+  <div class="container">
+    <header class="site-header">
+      <a href="index.html" class="logo-mark" aria-label="Ana Karen Nava — inicio">
+        <img src="assets/img/logo-anna-color.svg" alt="" class="logo-img logo-img--color">
+        <img src="assets/img/logo-anna-blanco.svg" alt="" class="logo-img logo-img--white">
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#proyectos" data-i18n="nav.proyectos">Proyectos</a>
+        <a href="perfil.html" data-i18n="nav.perfil">Perfil</a>
+      </nav>
+
+      <div class="lang-switch" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang-option="es">Esp</button>
+        <span class="divider">|</span>
+        <button type="button" data-lang-option="en">Eng</button>
       </div>
-    </div>
-  </nav>
+    </header>
 
-  <!-- HERO / ENCABEZADO PRINCIPAL -->
-  <section class="hero d-flex align-items-center justify-content-center text-center">
-    <div>
-      <h1 class="fw-bold">Hola, soy <span class="highlight">Karen Nava</span></h1>
-      <p class="lead">Diseñadora UX/UI y Frontend Developer apasionada por crear experiencias digitales hermosas y funcionales.</p>
-      <a href="./assets/Ana-Nava-UX-UI-Diseñadora.pdf" class="btn btn-lg btn-primary mt-3">Revisa mi CV</a>
-    </div>
-  </section>
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1 class="hero-title">UX / UI</h1>
+          <p class="hero-subtitle" data-i18n="hero.role">Designer · Frontend Developer</p>
 
-  <!--SOBRE MÍ -->
-  <section id="about" class="container py-5">
-    <div class="row align-items-center">
-      <div class="col-md-5 text-center">
+          <div class="hero-copy">
+            <p data-i18n="hero.p1"></p>
+            <p data-i18n="hero.p2"></p>
+            <p data-i18n="hero.p3"></p>
+          </div>
+
+          <div class="hero-actions">
+            <a href="perfil.html" class="btn btn-outline" data-i18n="buttons.perfil">Mi perfil</a>
+            <a href="files/cv.pdf" class="btn btn-solid" data-i18n="buttons.cv" download>Descargar CV</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="speech-bubble">
+            <span data-i18n="bubble.greeting">Hola,</span>
+            <strong data-i18n="bubble.name">soy ANNA</strong>
+          </div>
+
+          <a href="perfil.html" class="hero-illustration-link" aria-describedby="about-tip">
+            <img class="hero-illustration" src="assets/img/hero.webp" width="1003" height="576"
+                 alt="Ilustración de una chica reclinada con botas, dibujando en una tableta, junto a las letras A y V del logotipo."
+                 data-i18n-attr="alt:about.alt">
+            <span id="about-tip" class="about-tooltip" data-i18n="about.tooltip">Acerca de mí</span>
+          </a>
+        </div>
+      </section>
+
+      <div class="social-row">
+        <a href="https://github.com/byannakn" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#9984BC" stroke-width="1.8"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.22-3.37-1.22-.46-1.19-1.11-1.51-1.11-1.51-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.4 9.4 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/karen-nava/?skipRedirect=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#9984BC" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7.5 10v7M7.5 7v.01M12 17v-4.5c0-1.38 1-2.5 2.25-2.5S16.5 11.12 16.5 12.5V17"/></svg>
+        </a>
+        <a href="https://wa.me/525653214409" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#9984BC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.4-4.3A8.5 8.5 0 1 1 8 19.3l-4.5 1.2z"/><path d="M9.2 8.6c.2 2.4 2.7 5 5.2 5.4l1.1-1.1-1.9-1-.9.7c-.9-.4-1.8-1.3-2.2-2.2l.7-.9-1-1.9-1 1z"/></svg>
+        </a>
       </div>
-      <div class="col-md-7">
-        <h2 class="section-title">Sobre mí</h2>
-        <p>Desarrolladora fullstack con especialidad en UX/UI.</p> 
-          
-        <p>Las interfaces limpias, intuitivas y efectivas son el medio para llegar más allá de la vista. 
-          Disfruto contruir soluciones con tecnología y propósito humano.</p>
-        </p>
-        <p> Conectemos en <a class="Linkedin-link" href="https://www.linkedin.com/in/karen-nava/">Linkedin</a>! O si prefieres, visita mi <a class="Github-link" href="https://github.com/byannakn">Github</a> </p>
-      </div>
-    </div>
-  </section>
 
-  <!-- HABILIDADES -->
-  <section id="skills" class="skills-section text-center py-5">
-    <div class="container">
-    <h2 class="section-title">Habilidades</h2>
-    <div class="row mt-5">
-        <div class="col-md-3 col-6 mb-3">
-        <div class="skill-card">Figma</div>
-        </div>
-        <div class="col-md-3 col-6 mb-3">
-        <div class="skill-card">HTML / CSS</div>
-        </div>
-        <div class="col-md-3 col-6 mb-3">
-        <div class="skill-card">JavaScript</div>
-        </div>
-        <div class="col-md-3 col-6 mb-3">
-        <div class="skill-card">Bootstrap</div>
-        </div>
-        <div class="col-md-3 col-6 mb-3">
-        <div class="skill-card">python</div>
+      <div class="lower-grid">
+        <a href="#proyectos" class="projects-folder">
+          <div class="folder-icon"></div>
+          <span data-i18n="projects.cta">Proyectos</span>
+        </a>
+
+        <div class="skill-card">
+          <h3 data-i18n="skills.uxui.title">ux / ui</h3>
+          <div class="tag-group">
+            <span class="tag-pill">Figma</span>
+            <span class="tag-pill">Sistemas de diseño</span>
+            <span class="tag-pill">Wireframing</span>
+            <span class="tag-pill">Prototipado</span>
+            <span class="tag-pill">Design Thinking</span>
+            <span class="tag-pill">Atomic Design</span>
+          </div>
         </div>
 
+        <div class="skill-card">
+          <h3 data-i18n="skills.dev.title">desarrollo</h3>
+          <div class="tag-group">
+            <span class="tag-pill">HTML5 / CSS3</span>
+            <span class="tag-pill">JavaScript</span>
+            <span class="tag-pill">Bootstrap</span>
+            <span class="tag-pill">Git / GitHub</span>
+            <span class="tag-pill">Responsive design</span>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- PROYECTOS -->
-  <section id="projects" class="proyects-section container py-5">
-    <h2 class="section-title text-center">Proyectos</h2>
-    <div class="row mt-4 g-4">
-      <!-- Proyecto 1 -->
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100">
-          <img src="assets/fondos/woof and BARF index.png" class="card-img-top" alt="Proyecto 1">
-          <div class="card-body">
-            <h5 class="card-title">Woof & BARF</h5>
-            <p class="card-text">E-commerce de comida BARF. Desarrollo fullstack desde maquetación de FIGMA a codigo responsive.</p>
+        <div class="skill-card">
+          <h3 data-i18n="skills.mgmt.title">diseño y gestión</h3>
+          <div class="tag-group">
+            <span class="tag-pill">Jira / Scrum</span>
+            <span class="tag-pill">Inglés B2</span>
+            <span class="tag-pill">Affinity Designer</span>
+            <span class="tag-pill">Adobe Psd Ai</span>
           </div>
         </div>
       </div>
+    </main>
 
-      <!-- Proyecto 2 -->
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100">
-          <img src="assets/fondos/Los encinos landing page.png" class="card-img-top" alt="Proyecto 2">
-          <div class="card-body">
-            <h5 class="card-title">Los Encinos, Club de golf</h5>
-            <p class="card-text">Landing page de un club de golf. uso de API de geolocalización. Este proyecto fue completado durante un hackaton de 10 horas</p>
+    <footer class="site-footer">
+      <span data-i18n="footer.rights">Hecho con cuidado por Ana Karen Nava</span>
+    </footer>
+  </div>
+
+  <!-- Ventana de Proyectos: se abre con index.html#proyectos (enlace compartible).
+       Pestaña Branding: se agregará aquí cuando haya contenido listo. -->
+  <dialog id="projects-modal" class="projects-modal" aria-labelledby="projects-modal-title">
+    <div class="pm-panel">
+      <div class="pm-ghosts" aria-hidden="true">
+        <img data-ghost="woof" src="assets/img/projects/woof-barf/ghost.webp" alt="" loading="lazy">
+        <img data-ghost="xanat" src="assets/img/projects/xanat/ghost.webp" alt="" loading="lazy">
+      </div>
+      <div class="pm-scrim" aria-hidden="true"></div>
+
+      <div class="pm-head">
+        <h2 id="projects-modal-title" class="pm-tab">UX / UI</h2>
+        <div class="pm-tools">
+          <div class="lang-switch" role="group" aria-label="Idioma / Language">
+            <button type="button" data-lang-option="es">Esp</button>
+            <span class="divider">|</span>
+            <button type="button" data-lang-option="en">Eng</button>
           </div>
+          <button type="button" class="pm-close" aria-label="Cerrar ventana de proyectos" data-i18n-attr="aria-label:modal.close">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          </button>
         </div>
       </div>
 
-      <!-- Proyecto 3 -->
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100">
-          <img src="assets/fondos/xanat.png" class="card-img-top" alt="Proyecto 3">
-          <div class="card-body">
-            <h5 class="card-title">Xanat</h5>
-            <p class="card-text">Desarrollo de pagina web responsiva enfocada en la protección, propagación y cuidados de flora en peligro de extinción en México</p>
-          </div>
-        </div>
-      </div>
+      <ul class="pm-grid">
+        <li>
+          <a class="pm-card" href="proyecto-woof-barf.html" data-ghost="woof">
+            <img src="assets/img/projects/woof-barf/thumb.webp" alt="" width="480" height="360" loading="lazy">
+            <span class="pm-card-title">Woof &amp; BARF</span>
+            <span class="pm-card-desc" data-i18n="modal.woof">E-commerce con carácter para comida BARF</span>
+          </a>
+        </li>
+        <li>
+          <a class="pm-card" href="proyecto-xanat.html" data-ghost="xanat">
+            <img src="assets/img/projects/xanat/thumb.webp" alt="" width="480" height="360" loading="lazy">
+            <span class="pm-card-title">Xanat</span>
+            <span class="pm-card-desc" data-i18n="modal.xanat">App y sitio para proteger flora en peligro de extinción</span>
+          </a>
+        </li>
+      </ul>
     </div>
-  </section>
+  </dialog>
 
-  <!-- CONTACTO -->
-  <section id="contact" class="contact-section bg-light py-5">
-    <div class="container">
-      <h2 class="section-title text-center">Contáctame</h2>
-      <p class="text-center text-muted mb-4">¿Tienes una idea o proyecto? ¡Hablemos!</p>
-
-      <!-- Formulario con Bootstrap -->
-      <form class="col-md-8 mx-auto">
-        <div class="mb-3">
-          <label class="form-label">Nombre</label>
-          <input type="text" class="form-control" placeholder="Tu nombre">
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Correo electrónico</label>
-          <input type="email" class="form-control" placeholder="tu@email.com">
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Mensaje</label>
-          <textarea class="form-control" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
-        </div>
-        <div class="text-center">
-          <button type="submit" class="btn btn-primary px-5">Enviar</button>
-        </div>
-      </form>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="text-center py-4 bg-dark text-white">
-    © 2025 Karen Nava — Diseñadora UX/UI Fullstack ✨
-  </footer>
-
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="script.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
-
-

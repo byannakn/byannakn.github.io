@@ -1,0 +1,252 @@
+{
+  "nav": {
+    "proyectos": "Proyectos",
+    "perfil": "Perfil"
+  },
+  "hero": {
+    "role": "Designer · Frontend Developer",
+    "p1": "Diseño pensando primero en cómo se usa, no solo en cómo se ve — una forma de mirar que traigo desde mi formación en diseño de producto. Mi base técnica en frontend me permite trabajar de extremo a extremo: del wireframe al componente funcional.",
+    "p2": "El soporte técnico bilingüe me enseñó a escuchar lo que las personas realmente necesitan, más allá de lo que dicen.",
+    "p3": "Soy detallista hasta con lo que casi no se nota. Como la sal: se nota cuando falta."
+  },
+  "buttons": {
+    "perfil": "Mi perfil",
+    "cv": "Descargar CV"
+  },
+  "bubble": {
+    "greeting": "Hola,",
+    "name": "soy ANNA"
+  },
+  "about": {
+    "tooltip": "Acerca de mí",
+    "alt": "Ilustración de una chica reclinada con botas, dibujando en una tableta, junto a las letras A y V del logotipo."
+  },
+  "skills": {
+    "uxui": {
+      "title": "ux / ui"
+    },
+    "dev": {
+      "title": "desarrollo"
+    },
+    "mgmt": {
+      "title": "diseño y gestión"
+    }
+  },
+  "projects": {
+    "cta": "Proyectos"
+  },
+  "perfil": {
+    "eyebrow": "Perfil",
+    "name": "Ana Karen Nava",
+    "role": "Designer · Frontend Developer",
+    "bio": {
+      "p1": "Empecé diseñando objetos que se pueden tocar, y terminé diseñando interfaces que se pueden usar — el hilo entre ambos nunca cambió: entender primero a quién le sirve lo que hago.",
+      "p2": "Esa curiosidad no se queda en el trabajo: me importa cómo vive cada persona una experiencia, sea física, digital o completamente intangible. Prefiero que eso se note en lo que hago, no en lo que digo."
+    },
+    "trayectoria": {
+      "title": "Trayectoria",
+      "items": [
+        {
+          "date": "2026",
+          "title": "A la Gloria",
+          "org": "Negocio familiar",
+          "desc": "Diseñando el sitio de un negocio familiar desde cero: identidad, catálogo y venta en un solo lugar."
+        },
+        {
+          "date": "Sept – Dic 2025",
+          "title": "Bootcamp Full Stack Java",
+          "org": "Generation México",
+          "desc": "Profundicé en lógica de backend y bases de datos, para entender de extremo a extremo lo que construyo en frontend."
+        },
+        {
+          "date": "2025",
+          "title": "Sistemas de diseño y prototipado",
+          "org": "UX Christopher",
+          "desc": "Ahí perfeccioné el prototipado de alta fidelidad y aprendí a dominar el autolayout en Figma — la diferencia entre una maqueta bonita y un sistema que en verdad funciona."
+        },
+        {
+          "date": "Sept 2023 – Ago 2025",
+          "title": "Soporte técnico bilingüe",
+          "org": "Ttec Solutions",
+          "desc": "Resolví problemas técnicos en inglés y español durante dos años. Ahí aprendí que escuchar bien no es solo resolver el problema — es entender el contexto cultural de quien lo vive."
+        },
+        {
+          "date": "2023",
+          "title": "Certificado UX/UI Design",
+          "org": "Google · Coursera",
+          "desc": "Aquí aprendí la metodología completa de principio a fin: investigación, wireframing, prototipado — el proceso que hoy uso en cada proyecto."
+        },
+        {
+          "date": "Jul – Dic 2022",
+          "title": "Recepcionista bilingüe",
+          "org": "Grand Palladium Riviera Maya",
+          "desc": "Resolví conflictos y coordiné áreas distintas para sostener una buena experiencia, incluso bajo presión."
+        },
+        {
+          "date": "Feb – May 2022",
+          "title": "Freelance, desarrollo web",
+          "org": "NUCCI Nutrition",
+          "desc": "Diseñé mi primer sitio para un cliente real: catálogo digital, contenido visual, una marca que aprendí a entender antes de diseñar."
+        },
+        {
+          "date": "2019",
+          "title": "Diseño Industrial",
+          "org": "UAM",
+          "desc": "Ahí aprendí a diseñar para el cuerpo — ergonomía, materiales, lo que se siente al tocar algo. Ese puente nunca desapareció: empecé con objetos que se pueden tocar, y terminé con interfaces que se pueden usar."
+        }
+      ]
+    },
+    "closing": "Si tienes un proyecto que necesita a alguien que cuide tanto la experiencia del usuario como los detalles que nadie pide pero todos notan, hablemos. Escríbeme y armamos algo juntos.",
+    "buttons": {
+      "back": "Volver",
+      "proyectos": "Proyectos"
+    }
+  },
+  "footer": {
+    "rights": "Hecho con cuidado por Ana Karen Nava"
+  },
+  "project": {
+    "toc": "Contenido",
+    "datasheet": "Ficha",
+    "duration": "Duración",
+    "team": "Equipo",
+    "role": "Rol",
+    "tools": "Herramientas",
+    "program": "Programa",
+    "back": "Volver a proyectos",
+    "next": "Siguiente proyecto",
+    "zoomHint": "Haz clic en una imagen para ampliarla",
+    "close": "Cerrar",
+    "tags": {
+      "research": "Investigación UX",
+      "product": "Diseño de producto",
+      "userResearch": "Investigación de usuarios",
+      "ia": "Arquitectura de información",
+      "a11y": "Accesibilidad"
+    },
+    "closeImage": "Cerrar imagen"
+  },
+  "modal": {
+    "label": "Proyectos",
+    "close": "Cerrar ventana de proyectos",
+    "woof": "E-commerce con carácter para comida BARF",
+    "xanat": "App y sitio para proteger flora en peligro de extinción"
+  },
+  "woof": {
+    "meta": "Woof & BARF — Caso de estudio",
+    "tagline": "E-commerce con carácter para comida BARF",
+    "ficha": {
+      "duration": "6 semanas",
+      "team": "8 personas",
+      "role": "Líder UX · marca y frontend",
+      "tools": "Figma · HTML5 · CSS3 · JavaScript"
+    },
+    "s1": {
+      "title": "Contexto",
+      "p": "Proyecto de e-commerce desarrollado en un equipo multidisciplinario de 8 personas, durante un bootcamp de 6 semanas. Mi rol: Líder UX — identidad de marca, sistema de diseño, empaques, estructura y flujos del sitio, prototipado en Figma y parte de la implementación frontend."
+    },
+    "s2": {
+      "title": "El problema",
+      "p": "Los dueños de mascotas en el área metropolitana de CDMX que buscan opciones de comida BARF se encuentran con marcas visualmente genéricas, sin personalidad que las diferencie. El reto era crear una plataforma que transmitiera confianza y carácter al mismo tiempo — sin caer en la estética “cute” y departamental que domina el sector."
+    },
+    "s3": {
+      "title": "Decisiones de diseño",
+      "p1": "El husky con lentes de sol no fue casualidad: conecta la comida cruda con el lobo, su origen natural, y los lentes le dan la personalidad “cool” que separa a la marca de la competencia más convencional. Ese mismo criterio guió el sistema de color — elegí tonos que se sintieran “alimenticios” sin sacrificar el significado que ya esperamos de ciertos colores (verde para positivo, rojo para error), y lo documenté con variaciones completas en Figma para que el equipo lo aplicara con consistencia.",
+      "p2": "En el empaque, la ventana transparente no tiene una forma azarosa: al abrazar una identidad “cool” y ruda, diseñé el corte como si el empaque estuviera “rasgado”. Cada presentación tiene su propia mascota (razas distintas según el tamaño) y los mismos ingredientes que aparecen en el hero del sitio, para que la marca se sienta igual sin importar dónde la encuentres."
+    },
+    "s4": {
+      "title": "Lo que construí",
+      "g1": {
+        "title": "Identidad de marca y empaques",
+        "p": "Diseñé la identidad completa: logotipo, sistema de color, tipografía (refinada con retroalimentación del equipo) y reglas de aplicación para redes sociales, etiquetado y publicidad en distintos formatos. También diseñé los empaques, iterando entre varias versiones hasta llegar a la final. Las composiciones de ingredientes y platillos las armé con apoyo de IA como referencia de estilo para las mascotas adicionales; yo las organicé, separé y adapté a la identidad de la marca."
+      },
+      "g2": {
+        "title": "Sitio web",
+        "p": "Diseñé la estructura y los flujos del sitio — no solo las pantallas en Figma, sino el recorrido completo —, el header y el footer con retroalimentación de mis compañeros, y el flujo de inicio de sesión y registro, que implementé en código junto con una compañera (HTML5 + CSS3). También coordiné la consistencia visual entre las páginas que construyó el resto del equipo: alineaciones, colores y estilos. En el home, el husky permanece quieto mientras platillos e ingredientes giran a su alrededor; al pasar el cursor se detienen, y al hacer clic llevan al catálogo.",
+        "credits": "Créditos del equipo: la sección “Nosotros” (con tarjetas que voltean al hacer hover) fue idea y construcción de mis compañeros; yo solo la recreé en Figma para conservarla en el archivo. La animación del home adaptó un concepto que vi en otro sitio (un pug con tarjetas de información alrededor). Los filtros del catálogo los implementó otro compañero; mi aporte fue la propuesta visual. También diseñé la sección “Mi cuenta” en Figma, que quedó fuera del alcance final por tiempo."
+      },
+      "g3": {
+        "title": "Proceso",
+        "p": "Del wireframe al prototipo conectado en Figma."
+      }
+    },
+    "s5": {
+      "title": "Reflexión",
+      "p": "No realizamos investigación de usuario formal. En un proyecto real, habría validado la propuesta de valor con al menos 5 entrevistas a dueños de mascotas antes de definir la identidad visual. También habría reducido el ruido visual del fondo en páginas secundarias para mejorar la legibilidad del contenido."
+    },
+    "s6": {
+      "title": "Stack y herramientas"
+    },
+    "shots": {
+      "cover": "Home del sitio: el husky con lentes, protagonista de la identidad.",
+      "brandGuide": "Guía de marca: paleta, tipografía y sombras definidas en Figma.",
+      "logoGrid": "Retícula y variaciones del logotipo para distintos usos.",
+      "logoVersions": "Versiones del logotipo: vertical, horizontal, compacta, ícono y monograma.",
+      "packRes": "Empaque de Res, 1 kg.",
+      "packCerdo": "Empaque de Cerdo, 2 kg.",
+      "packPollo": "Empaque de Pollo, 500 g.",
+      "catalogo": "Catálogo con filtros (versión de trabajo; filtros implementados por un compañero).",
+      "carrito": "Carrito con stepper de compra y productos recomendados (versión de trabajo).",
+      "cuenta": "“Mi cuenta”: diseñada en Figma, fuera del alcance final del proyecto.",
+      "login": "Flujo de registro, inicio de sesión y validación de identidad.",
+      "wireframes": "Wireframes de baja fidelidad de las pantallas principales.",
+      "figma": "Vista general de las pantallas diseñadas en Figma.",
+      "prototipo": "Flujo conectado del prototipo."
+    }
+  },
+  "xanat": {
+    "meta": "Xanat — Caso de estudio",
+    "tagline": "App y sitio para proteger flora en peligro de extinción",
+    "ficha": {
+      "duration": "6 semanas",
+      "team": "Proyecto individual",
+      "program": "Google UX Design Certificate (Coursera)",
+      "tools": "Figma"
+    },
+    "s1": {
+      "title": "Contexto",
+      "p": "Proyecto individual realizado en 6 semanas, como uno de los tres proyectos finales del Google UX Design Certificate (Coursera). Xanat es una organización ficticia enfocada en la protección, propagación y cuidado de flora en peligro de extinción en México. Mi rol: diseñadora UX a cargo de la concepción y el diseño de la aplicación y del sitio web adaptable, de principio a fin."
+    },
+    "s2": {
+      "title": "El problema",
+      "p": "Más de 60 especies endémicas de México están en peligro de extinción por la destrucción de hábitats, la introducción de especies no endémicas y las plagas — un desequilibrio que además empuja a los polinizadores hacia zonas vulnerables. El reto: diseñar una herramienta que eduque sobre el cuidado de estas especies, mejore la calidad de vida de las personas involucradas y apoye a las comunidades agrícolas que dependen de ellas."
+    },
+    "s3": {
+      "title": "Proceso de investigación",
+      "p1": "Revisé el marco teórico en fuentes como SAGARPA y el Jardín Botánico de la UNAM para construir las preguntas de entrevista. Tuve poca participación de usuarios reales — principalmente familiares —, complementada con entrevistas simuladas como parte del ejercicio. Aun con esa limitación, el hallazgo fue claro: la mayoría de las personas no sabía cuántas o cuáles especies están en peligro, pero estaba dispuesta a ayudar si tuviera una herramienta sencilla que la guiara.",
+      "p2": "Con esos hallazgos hice un ejercicio de ideación centrado en educación y orientación — cómo incluir estas especies en la vida diaria de alguien sin conocimiento previo — y definí la arquitectura de información con un mapa de sitio (Jardín, Vivero, Carrito, Acerca de) que después guio cada pantalla."
+    },
+    "s4": {
+      "title": "Lo que construí",
+      "g1": {
+        "title": "Del papel al prototipo",
+        "p": "Partí de esquemas en papel, luego wireframes digitales y un prototipo de baja fidelidad para las pruebas de usabilidad."
+      },
+      "g2": {
+        "title": "Lo que cambiaron las pruebas",
+        "p": "Los resultados cambiaron decisiones concretas: la pantalla de inicio dejó de mostrar el estado de la planta nueva y pasó a presentar diapositivas de cuidados de plantas, comunidades agrícolas y noticias sobre el avance en la protección de especies, y agregué la opción de “comprar” en las fichas de especie (como semilla, planta o derivado, según las condiciones legales de cada una)."
+      },
+      "g3": {
+        "title": "Alta fidelidad y diseño adaptable",
+        "p": "Construí el prototipo de alta fidelidad conservando el mismo flujo, y diseñé el producto en tres formatos — sitio web móvil, app móvil y sitio web de escritorio — con jerarquía tipográfica clara y etiquetas pensadas para lectores de pantalla."
+      }
+    },
+    "s5": {
+      "title": "Reflexión",
+      "p": "Los usuarios que probaron el prototipo comentaron que el lenguaje y la distribución se sentían amigables, incluso para un tema que podría parecer solo para especialistas. Lo que aprendí: aunque el problema sea grande, recorrer con disciplina cada paso del proceso y ajustarse a las necesidades de las personas ayuda a encontrar soluciones viables y útiles. Con más tiempo, haría otra ronda de pruebas de usabilidad para validar los cambios, agregaría formas más entretenidas de sostener el interés de quienes usan la app y buscaría acercarme a más comunidades agrícolas."
+    },
+    "s6": {
+      "title": "Herramientas y enfoque"
+    },
+    "shots": {
+      "cover": "Maquetas de alta fidelidad: inicio, Mi jardín, ficha de especie y carrito.",
+      "sitemap": "Mapa de sitio que guió la estructura de cada pantalla.",
+      "esquemas": "Esquemas digitales de la pantalla “Mi jardín”, con anotaciones de diseño.",
+      "bajaFidelidad": "Prototipo de baja fidelidad conectado para las pruebas de usabilidad.",
+      "antesHome": "Antes y después del estudio de usabilidad: pantalla de inicio.",
+      "antesFlor": "Antes y después del estudio de usabilidad: ficha de especie con opción de compra.",
+      "altaFidelidad": "Prototipo de alta fidelidad con el mismo flujo que el de baja fidelidad.",
+      "adaptable": "Diseño adaptable: sitio web móvil, app móvil y sitio web de escritorio."
+    }
+  }
+}
